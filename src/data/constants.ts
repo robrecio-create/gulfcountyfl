@@ -1,12 +1,11 @@
 export const towns = [
-  { name: 'Port St. Joe', slug: 'port-st-joe', businesses: 0 },
+  { name: 'Port St Joe', slug: 'port-st-joe', businesses: 0 },
   { name: 'Wewahitchka', slug: 'wewahitchka', businesses: 0 },
-  { name: 'Mexico Beach', slug: 'mexico-beach', businesses: 0 },
-  { name: 'Cape San Blas', slug: 'cape-san-blas', businesses: 0 },
   { name: 'White City', slug: 'white-city', businesses: 0 },
-  { name: 'Highland View', slug: 'highland-view', businesses: 0 },
+  { name: 'Howard Creek', slug: 'howard-creek', businesses: 0 },
+  { name: 'Overstreet', slug: 'overstreet', businesses: 0 },
+  { name: 'Beacon Hill', slug: 'beacon-hill', businesses: 0 },
 ];
-
 export const categories = [
   { name: 'Restaurants & Dining', slug: 'restaurants-dining', icon: '🍽️', count: 0 },
   { name: 'Shopping & Retail', slug: 'shopping-retail', icon: '🛍️', count: 0 },
@@ -27,7 +26,6 @@ export const categories = [
   { name: 'Accommodations', slug: 'accommodations', icon: '🏨', count: 0 },
   { name: 'Appliances & Rentals', slug: 'appliances-rentals', icon: '🔌', count: 0 },
 ];
-
 export const navLinks = [
   { label: 'Home', href: '/' },
   { label: 'Listings', href: '/listings/' },
